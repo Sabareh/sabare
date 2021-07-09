@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Network Stealer
+  logo: /images/sections/projects/kubernetes.png
+  role: Contributor
+  timeline: "March 2018 - Present"
+  repo: https://github.com/Sabareh/NetworkStealer # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Phishing Framework for Facebook, Gmail, Twitter, WiFi, Windows..
+  tags: ["professional", "Python", "cloud"]
+
+- name: Tensorflow
+  logo: /images/sections/projects/tensorflow.png
+  role: Developer
+  timeline: "Jun 2018 - Present"
+  repo: https://github.com/tensorflow/tensorflow
+  #url: ""
+  summary: An Open Source Machine Learning Framework for Everyone.
+  tags: ["professional", "machine-learning"]
+
+- name: HPomb
+  role: Team Lead
+  timeline: "Jan 2019 - Present"
+  url: https://github.com/Sabareh/HPomb
+  summary: HPomb open-source projetc for SMS , Call & Mail bombing available for Window , Linux , MacOS And Android( Termux )
+  tags: ["academic","iot"]
+
+- name: Phone Number Toolkit
+  logo: /images/sections/projects/no-code.png
+  role: Nothing
+  timeline: "Oct 2019 - Dec 2019"
+  repo: https://github.com/Sabareh/PhoneNumberKit
+  summary: A Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber
+  tags: ["hobby", "fun"]
+
+- name: Toha
+  logo: /images/sections/projects/toha.png
+  role: Contributor
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]
